@@ -33,7 +33,7 @@ Investigate the relationship between **Voltage**, **Current**, **Resistance**, *
 | Resistor Voltage | 6.95V |
 | Current | 31.6mA |
 
-![Circuit](Circuit.png)
+![Circuit](ircuit.png)
 ![Simulation](Simulation.gif)
 
 ### Circuit with 470Ω Resistor
