@@ -34,6 +34,7 @@ Investigate the relationship between **Voltage**, **Current**, **Resistance**, *
 | Current | 31.6mA |
 
 ![Circuit](Circuit.png)
+![Simulation](Simulation.gif)
 
 ### Circuit with 470Ω Resistor
 
