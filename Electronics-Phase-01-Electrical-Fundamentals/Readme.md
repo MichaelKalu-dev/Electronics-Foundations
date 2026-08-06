@@ -213,3 +213,47 @@ The LED was noticeably dimmer because the larger resistor limited the current fl
 - Increasing resistance reduces current.
 - Lower current results in lower power dissipation and reduced light output.
 - Resistors control current, helping protect sensitive electronic components.
+
+---
+
+# 💡 Key Takeaways
+
+Throughout this phase, I focused on building understanding from first principles rather than memorizing formulas. These are the most important ideas I am taking forward into the next phase of my electronics journey.
+
+- Electricity is the movement of electric charge through a complete circuit.
+- Voltage is electrical potential difference, which can be understood as **energy per unit charge**.
+- Current is the **rate of flow of electric charge**.
+- Resistance is the opposition to current caused by the properties of a material and the collisions experienced by moving electrons.
+- Conductors allow electrons to move easily, while insulators strongly restrict electron movement.
+- Ohm's Law describes the relationship between voltage, current, and resistance.
+- In a series circuit, current remains constant while voltage is divided among the components.
+- In a parallel circuit, voltage remains constant across each branch while current divides between the branches.
+- Complex circuits become easier to analyze by reducing them into simpler series and parallel sections.
+- Kirchhoff's Current Law is a consequence of the **conservation of charge**.
+- Kirchhoff's Voltage Law is a consequence of the **conservation of energy**.
+- Electrical power describes the rate at which electrical energy is transferred or converted.
+- Resistors are used to control current, divide voltage, dissipate electrical energy as heat, and protect sensitive components.
+
+---
+
+# 📈 Skills Developed
+
+By completing this phase, I strengthened my ability to:
+
+- Analyze electrical circuits logically before performing calculations.
+- Predict circuit behaviour before simulation.
+- Verify predictions through practical experiments.
+- Apply engineering reasoning instead of relying solely on memorized equations.
+- Document experiments clearly and professionally using Markdown and GitHub.
+
+---
+
+# 🚀 Next Phase
+
+The next phase of this journey will focus on **Capacitors**, exploring how electrical energy can be temporarily stored, released, filtered, and used for timing applications.
+
+As the complexity of the components increases, the fundamental principles learned in this phase—charge, voltage, current, resistance, conservation of charge, and conservation of energy—will continue to serve as the foundation for every new concept.
+
+---
+
+> *"Understanding first principles makes every new topic easier to learn."*
