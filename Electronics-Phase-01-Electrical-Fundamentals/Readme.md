@@ -116,3 +116,100 @@ Before building the circuit, I predicted that:
 - Components connected in parallel share the same voltage.
 - Current divides among the available paths.
 - The total current entering a junction equals the total current leaving the junction, demonstrating Kirchhoff's Current Law.
+
+  ---
+
+## Experiment 3 - Mixed Series-Parallel Circuit
+
+### Objective
+
+To analyze a circuit containing both series and parallel resistor connections.
+
+### Prediction
+
+Before building the circuit, I predicted that:
+
+- The two lower resistors would first be simplified into their equivalent parallel resistance.
+- The equivalent resistance would then be added to the series resistor.
+- Once the total current was determined, Ohm's Law could be used to calculate the voltage drops and branch currents.
+
+### Circuit
+
+![Mixed Circuit](images/03-mixed-circuit.png)
+
+### Measurements
+
+| Quantity | Measured Value |
+|----------|---------------:|
+| Supply Voltage | 9 V |
+| Equivalent Resistance | 150 Ω |
+| Total Current | 60 mA |
+| Voltage across Series Resistor | 6 V |
+| Voltage across Parallel Network | 3 V |
+| Current through Left Branch | 30 mA |
+| Current through Right Branch | 30 mA |
+
+### What I Learned
+
+- Mixed circuits can be simplified one section at a time.
+- Series and parallel rules can be applied independently within the same circuit.
+- Solving the equivalent resistance first makes complex circuits much easier to analyze.
+
+---
+
+## Experiment 4 - LED Current Limiting
+
+### Objective
+
+To investigate how a series resistor affects the brightness and current of an LED.
+
+### Prediction
+
+Before building the circuit, I predicted that:
+
+- Increasing the resistance would reduce the current.
+- Lower current would reduce the electrical power delivered to the LED.
+- The LED would therefore appear dimmer.
+
+### Circuit A (330 Ω)
+
+![LED with 330 Ohm Resistor](images/04-led-330ohm.png)
+
+### Measurements
+
+| Quantity | Measured Value |
+|----------|---------------:|
+| Supply Voltage | 9 V |
+| Resistor | 330 Ω |
+| LED Voltage | 2.01 V |
+| Circuit Current | 21.2 mA |
+
+### Observation
+
+The LED produced a bright light while operating safely.
+
+---
+
+### Circuit B (1 kΩ)
+
+![LED with 1k Ohm Resistor](images/05-led-1kohm.png)
+
+### Measurements
+
+| Quantity | Measured Value |
+|----------|---------------:|
+| Supply Voltage | 9 V |
+| Resistor | 1 kΩ |
+| LED Voltage | 1.89 V |
+| Circuit Current | 7.11 mA |
+
+### Observation
+
+The LED was noticeably dimmer because the larger resistor limited the current flowing through it.
+
+### What I Learned
+
+- LEDs require current-limiting resistors to operate safely.
+- Increasing resistance reduces current.
+- Lower current results in lower power dissipation and reduced light output.
+- Resistors control current, helping protect sensitive electronic components.
