@@ -42,3 +42,77 @@ At the end of this phase, I was able to:
 - Kirchhoff's Voltage Law (KVL)
 - Electrical Power
 - Resistors
+
+  ---
+
+# 🔬 Practical Experiments
+
+## Experiment 1 - Series Circuit
+
+### Objective
+
+To understand how voltage and current behave in a series circuit.
+
+### Prediction
+
+Before building the circuit, I predicted that:
+
+- Current would remain the same throughout the circuit because there is only one path for charge to flow.
+- The source voltage would be shared between the resistors.
+- The sum of all voltage drops would equal the battery voltage.
+
+### Circuit
+
+![Series Circuit](images/01-series-circuit.png)
+
+### Measurements
+
+| Quantity | Measured Value |
+|----------|---------------:|
+| Supply Voltage | 9 V |
+| Current | 30 mA |
+| Voltage across 100 Ω | 3 V |
+| Voltage across 200 Ω | 6 V |
+
+### What I Learned
+
+- Current remains constant throughout a series circuit.
+- Components in series divide the source voltage.
+- The sum of all voltage drops equals the source voltage, demonstrating Kirchhoff's Voltage Law.
+
+---
+
+## Experiment 2 - Parallel Circuit
+
+### Objective
+
+To understand how voltage and current behave in a parallel circuit.
+
+### Prediction
+
+Before building the circuit, I predicted that:
+
+- Every branch would experience the full supply voltage.
+- Current would divide between the branches.
+- The total current supplied by the battery would equal the sum of the branch currents.
+
+### Circuit
+
+![Parallel Circuit](images/02-parallel-circuit.png)
+
+### Measurements
+
+| Quantity | Measured Value |
+|----------|---------------:|
+| Supply Voltage | 9 V |
+| Battery Current | 180 mA |
+| Left Branch Current | 90 mA |
+| Right Branch Current | 90 mA |
+| Voltage across Left Resistor | 9 V |
+| Voltage across Right Resistor | 9 V |
+
+### What I Learned
+
+- Components connected in parallel share the same voltage.
+- Current divides among the available paths.
+- The total current entering a junction equals the total current leaving the junction, demonstrating Kirchhoff's Current Law.
