@@ -120,3 +120,47 @@ As the capacitor discharged, its voltage and current gradually decreased. The LE
 ### Inference
 
 The experiment demonstrated that a charged capacitor can temporarily supply electrical energy to a load. As the capacitor releases its stored energy, its voltage decreases, causing the current and LED brightness to decrease as well.
+
+## Experiment 3 - Effect of Capacitance
+
+### Description
+
+To investigate how changing the capacitance affects the amount of charge stored by a capacitor and the time required for it to charge to a given voltage.
+
+### Hypothesis
+
+Before performing the experiment, I predicted that:
+
+- A capacitor with greater capacitance would require more charge to reach the same voltage.
+- The larger capacitor would therefore store more energy at the same voltage.
+- The larger capacitor would take longer to charge when the resistance and supply voltage remained constant.
+
+### Circuit
+![Experiment 3 - Effect of Capacitance](images/experiment-3.jpg)
+
+### Observation
+
+The 470 µF capacitor charged more slowly than the 100 µF capacitor.
+
+At one point during the simulation, when the 470 µF capacitor had reached approximately 2.4 V, the 100 µF capacitor had already reached approximately 7 V.
+
+Both capacitors were connected to the same 9 V supply through the same 1 kΩ resistance.
+
+### Values
+
+| Quantity | 100 µF | 470 µF |
+|----------|-------:|-------:|
+| Supply Voltage | 9 V | 9 V |
+| Resistance | 1 kΩ | 1 kΩ |
+| Observed Voltage | 7 V | 2.4 V |
+
+### Inference
+
+The experiment demonstrated that increasing capacitance increases the amount of charge required for a capacitor to reach a given voltage.
+
+Since the 470 µF capacitor has a greater capacitance than the 100 µF capacitor, it required more charge to reach the same voltage and therefore charged more slowly under the same conditions.
+
+The relationship is:
+
+```text
+Q = CV
