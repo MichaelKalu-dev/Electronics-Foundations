@@ -101,19 +101,22 @@ Before performing the experiment, I predicted that:
 
 ### Circuit
 ![Experiment 2 - Capacitor Discharging Through an LED](images/experiment-2.png)
-**Temporary connection guide — delete after uploading the experiment screenshot:**
+### Observation
 
-```text
-First charge the 100µF capacitor to 9V using the circuit from Experiment 1.
+After the charged capacitor was connected to the LED through the 330 Ω resistor, the LED illuminated.
 
-Disconnect and remove the 9V battery.
+As the capacitor discharged, its voltage and current gradually decreased. The LED brightness also reduced as the capacitor voltage decreased until the LED eventually stopped glowing.
 
-Connect:
+### Values
 
-Capacitor (+) → 330Ω Resistor → LED Anode (+)
-LED Cathode (−) → Capacitor (−)
+| Quantity | Observed Value |
+|----------|---------------:|
+| Initial Capacitor Voltage | 9 V |
+| Resistor | 330 Ω |
+| Capacitor Voltage | Decreased |
+| Current | Decreased |
+| LED Brightness | Decreased |
 
-Connect a voltmeter across the capacitor.
+### Inference
 
-Run the simulation and observe the LED brightness,
-capacitor voltage, and current as the capacitor discharges.
+The experiment demonstrated that a charged capacitor can temporarily supply electrical energy to a load. As the capacitor releases its stored energy, its voltage decreases, causing the current and LED brightness to decrease as well.
