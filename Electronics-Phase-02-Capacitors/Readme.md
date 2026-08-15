@@ -82,3 +82,38 @@ The charge movement was initially fast, but became progressively slower as the c
 
 The experiment demonstrated that as the capacitor charges, its voltage increases while the charging current decreases. Once the capacitor voltage becomes equal to the battery voltage, there is no longer a potential difference driving current through the circuit, so the charging current approaches 0 A.
 
+## Experiment 2 - Capacitor Discharging Through an LED
+
+### Description
+
+To investigate how a charged capacitor releases its stored electrical energy through a load and observe how the capacitor voltage, current, and LED brightness change during discharge.
+
+### Hypothesis
+
+Before performing the experiment, I predicted that:
+
+- The charged capacitor would supply current to the LED.
+- The LED would illuminate when connected to the capacitor.
+- The LED would gradually become dimmer as the capacitor discharged.
+- The capacitor voltage would decrease over time.
+- The current would decrease as the capacitor voltage decreased.
+- The LED would eventually stop glowing when the capacitor could no longer provide enough energy.
+
+### Circuit
+![Experiment 2 - Capacitor Discharging Through an LED](images/experiment-2.png)
+**Temporary connection guide — delete after uploading the experiment screenshot:**
+
+```text
+First charge the 100µF capacitor to 9V using the circuit from Experiment 1.
+
+Disconnect and remove the 9V battery.
+
+Connect:
+
+Capacitor (+) → 330Ω Resistor → LED Anode (+)
+LED Cathode (−) → Capacitor (−)
+
+Connect a voltmeter across the capacitor.
+
+Run the simulation and observe the LED brightness,
+capacitor voltage, and current as the capacitor discharges.
