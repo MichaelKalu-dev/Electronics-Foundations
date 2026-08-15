@@ -63,15 +63,21 @@ Before building the circuit, I predicted that:
 
 ### Circuit
 ![Experiment 1 - Capacitor Charging](images/experiment-1.png)
+### Observation
 
-**Temporary connection guide — delete after uploading the experiment screenshot:**
+When the circuit was connected, the capacitor voltage gradually increased while the charging current continuously decreased.
 
-```text
-9V Battery (+) → 1kΩ Resistor → 100µF Capacitor (+)
-100µF Capacitor (−) → 9V Battery (−)
+The charge movement was initially fast, but became progressively slower as the capacitor voltage approached the battery voltage. Eventually, the capacitor reached approximately 9 V and the charging current approached 0 A.
 
-Connect a voltmeter across the capacitor.
-Connect an ammeter in series between the battery and resistor.
+### Values
 
-Close the switch and observe the capacitor voltage and charging current
-as the capacitor charges toward 9V.
+| Quantity | Observed Value |
+|----------|---------------:|
+| Supply Voltage | 9 V |
+| Initial Capacitor Voltage | ~0 V |
+| Final Capacitor Voltage | 9 V |
+| Final Charging Current | 0 A |
+
+### Inference
+
+The experiment demonstrated that as the capacitor charges, its voltage increases while the charging current decreases. Once the capacitor voltage becomes equal to the battery voltage, there is no longer a potential difference driving current through the circuit, so the charging current approaches 0 A.
