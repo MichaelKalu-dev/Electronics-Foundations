@@ -203,3 +203,44 @@ The experiment demonstrated that increasing resistance reduces the current flowi
 Since the 10 kΩ resistor provides greater opposition to current than the 1 kΩ resistor, the capacitor charges more slowly.
 
 This confirms the relationship: I = V/R
+
+## Experiment 5 - Resistance and Capacitance Together
+
+### Description
+
+To investigate how resistance and capacitance work together to affect the charging speed of a capacitor and introduce the RC time constant.
+
+### Hypothesis
+
+Before performing the experiment, I predicted that:
+
+- Increasing resistance would reduce current and slow the charging process.
+- Increasing capacitance would increase the amount of charge required to reach a given voltage.
+- Both resistance and capacitance would therefore affect the time required for a capacitor to charge.
+- Circuits with different resistance and capacitance values could have similar charging times if their RC products were equal.
+
+### Circuit
+![Experiment 5 - Resistance and Capacitance Together](images/experiment-5.png)
+
+### Observation
+
+The capacitor voltage in Circuit B and Circuit C was approximately the same during the observed stage of the experiment.
+
+However, the current in Circuit C was higher than the current in Circuit B.
+
+Circuit C used a 1 mF capacitor, which is equivalent to 1000 µF.
+
+### Values
+
+| Circuit | Resistance | Capacitance | Observation |
+|---------|-----------:|------------:|-------------|
+| B | 10 kΩ | 100 µF | Lower current |
+| C | 1 kΩ | 1 mF | Higher current |
+
+### Inference
+
+The experiment demonstrated that resistance and capacitance influence an RC circuit in different ways.
+
+The lower resistance in Circuit C allowed more current to flow compared with Circuit B, while the larger capacitance increased the amount of charge required for the capacitor to reach a given voltage.
+
+The relationship between resistance and capacitance is represented by the RC time constant: τ = RC
