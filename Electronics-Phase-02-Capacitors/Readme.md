@@ -100,7 +100,7 @@ Before performing the experiment, I predicted that:
 - The LED would eventually stop glowing when the capacitor could no longer provide enough energy.
 
 ### Circuit
-![Experiment 2 - Capacitor Discharging Through an LED](images/experiment-2.png)
+![Experiment 2 - Capacitor Discharging Through an LED](images/experiment-2.jpg)
 ### Observation
 
 After the charged capacitor was connected to the LED through the 330 Ω resistor, the LED illuminated.
