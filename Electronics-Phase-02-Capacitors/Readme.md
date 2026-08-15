@@ -62,7 +62,7 @@ Before building the circuit, I predicted that:
 - The current would eventually approach 0 A when the capacitor became fully charged.
 
 ### Circuit
-![Experiment 1 - Capacitor Charging](images/experiment-1.png)
+![Experiment 1 - Capacitor Charging](images/experiment-1.jpg)
 ### Observation
 
 When the circuit was connected, the capacitor voltage gradually increased while the charging current continuously decreased.
