@@ -220,7 +220,7 @@ Before performing the experiment, I predicted that:
 - Circuits with different resistance and capacitance values could have similar charging times if their RC products were equal.
 
 ### Circuit
-![Experiment 5 - Resistance and Capacitance Together](images/experiment-5.png)
+![Experiment 5 - Resistance and Capacitance Together](images/experiment-5.jpg)
 
 ### Observation
 
