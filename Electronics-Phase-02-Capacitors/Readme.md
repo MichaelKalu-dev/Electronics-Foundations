@@ -244,3 +244,52 @@ The experiment demonstrated that resistance and capacitance influence an RC circ
 The lower resistance in Circuit C allowed more current to flow compared with Circuit B, while the larger capacitance increased the amount of charge required for the capacitor to reach a given voltage.
 
 The relationship between resistance and capacitance is represented by the RC time constant: τ = RC
+
+# 💡 Key Takeaways
+
+Throughout this phase, I focused on understanding capacitors from first principles rather than memorizing formulas. These are the most important ideas I am taking forward into the next phase of my electronics journey.
+
+- A capacitor stores electrical energy in an electric field.
+- Capacitance describes the amount of charge that can be stored for a given voltage.
+- The relationship between charge, capacitance, and voltage is `Q = CV`.
+- A capacitor charges gradually when connected to a DC source.
+- Charging current decreases as the capacitor voltage increases.
+- When the capacitor voltage approaches the source voltage, the charging current approaches 0 A.
+- A charged capacitor can release its stored energy through a load.
+- During discharge, the capacitor voltage and current decrease over time.
+- A larger capacitance requires more charge to reach the same voltage.
+- Increasing capacitance also increases the energy that can be stored at the same voltage.
+- Increasing resistance reduces current and slows the charging process.
+- Resistance and capacitance affect an RC circuit in different ways.
+- The RC time constant is given by `τ = RC`.
+- A capacitor stores energy supplied by an external source rather than generating energy continuously like a battery.
+- Capacitors can be used for energy storage, timing, filtering, smoothing, and many other practical electronic applications.
+
+---
+
+# 📈 Skills Developed
+
+By completing this phase, I strengthened my ability to:
+
+- Analyze capacitor circuits logically before performing calculations.
+- Predict circuit behaviour before simulation.
+- Observe and interpret capacitor charging and discharging behaviour.
+- Relate voltage, current, charge, capacitance, and resistance to physical circuit behaviour.
+- Calculate the energy stored in a capacitor.
+- Analyze how changing resistance and capacitance affects circuit behaviour.
+- Understand and apply the RC time constant.
+- Verify predictions through practical circuit experiments.
+- Apply engineering reasoning instead of relying solely on memorized equations.
+- Document experiments clearly and professionally using Markdown and GitHub.
+
+---
+
+# 🚀 Next Phase
+
+The next phase of this journey will focus on **Inductors**, exploring how electrical energy can be stored in magnetic fields and how inductors respond to changes in current.
+
+The fundamental principles learned in this phase—charge, voltage, current, resistance, energy storage, and time-dependent circuit behaviour—will continue to serve as the foundation for understanding more complex electronic components and circuits.
+
+---
+
+> *"Understanding first principles makes every new topic easier to learn."*
