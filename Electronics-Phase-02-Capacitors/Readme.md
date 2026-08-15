@@ -160,7 +160,46 @@ The experiment demonstrated that increasing capacitance increases the amount of 
 
 Since the 470 µF capacitor has a greater capacitance than the 100 µF capacitor, it required more charge to reach the same voltage and therefore charged more slowly under the same conditions.
 
-The relationship is:
+The relationship is: Q = CV
 
-```text
-Q = CV
+
+## Experiment 4 - Effect of Resistance
+
+### Description
+
+To investigate how changing the resistance affects the current and charging speed of a capacitor while keeping the capacitance and supply voltage constant.
+
+### Hypothesis
+
+Before performing the experiment, I predicted that:
+
+- Increasing the resistance would reduce the charging current.
+- Lower current would reduce the rate at which charge flows into the capacitor.
+- The capacitor with the higher resistance would therefore charge more slowly.
+
+### Circuit
+![Experiment 4 - Effect of Resistance](images/experiment-4.jpg)
+
+### Observation
+
+The 1 kΩ circuit had a higher charging current than the 10 kΩ circuit.
+
+The capacitor in the 1 kΩ circuit also charged faster, causing its voltage to increase more rapidly than the capacitor in the 10 kΩ circuit.
+
+### Values
+
+| Quantity | 1 kΩ Circuit | 10 kΩ Circuit |
+|----------|-------------:|--------------:|
+| Supply Voltage | 9 V | 9 V |
+| Capacitance | 100 µF | 100 µF |
+| Resistance | 1 kΩ | 10 kΩ |
+| Charging Current | Higher | Lower |
+| Capacitor Voltage | Higher during charging | Lower during charging |
+
+### Inference
+
+The experiment demonstrated that increasing resistance reduces the current flowing into the capacitor.
+
+Since the 10 kΩ resistor provides greater opposition to current than the 1 kΩ resistor, the capacitor charges more slowly.
+
+This confirms the relationship: I = V/R
